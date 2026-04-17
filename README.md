@@ -1,4 +1,4 @@
-Subarrays in Java
+### Subarrays in Java
 
 This repository contains a simple Java program that demonstrates how to generate all possible subarrays of a given array, calculate their sums, and determine the maximum and minimum subarray sums.
 
@@ -50,5 +50,31 @@ for n=4
 12
 123
 1234
+
+### Hallow Rectangle
+
+This repository contains a simple Java program to print a **hollow rectangle pattern** using nested loops.  
+It demonstrates conditional logic (`if-else`) and loop control structures (`for` loops).
+
+---
+
+## 📌 Program Overview
+The program defines a method `Hallow_Rectangle(int totalrows, int totalcol)` that prints a rectangle of `*` characters with a hollow center.
+
+- Border rows and columns are filled with `*`
+- Inner cells are left blank (`space`)
+- Example dimensions: 8 rows × 5 columns
+
+## Output
+for n = 8
+*****
+*   *
+*   *
+*   *
+*   *
+*   *
+*   *
+*****
+
 
 
