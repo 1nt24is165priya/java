@@ -21,3 +21,34 @@ Subarrays(numbers);
 Total Subarrays = 15
 Maximum Subarray Sum = 28
 Minimum Subarray Sum = 2
+
+
+# Half Pyramid in Java
+
+This project demonstrates how to print a **Half Pyramid** pattern using Java.  
+The program takes an integer `n` as input and prints a pyramid of numbers with `n` rows.
+
+---
+
+## Problem Statement
+Write a Java program that prints a half pyramid of numbers.  
+For example, if `n = 5`, the output should be:
+
+
+---
+
+## 🖥️ Code Explanation
+- The program uses a `Scanner` to read input from the user.
+- Outer loop (`line`) controls the number of rows.
+- Inner loop (`i`) prints numbers from `1` up to the current row number.
+- After each row, `System.out.println()` moves to the next line.
+
+
+## Output 
+for n=4
+1
+12
+123
+1234
+
+
