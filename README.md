@@ -2,7 +2,7 @@
 
 This repository contains a simple Java program that demonstrates how to generate all possible subarrays of a given array, calculate their sums, and determine the maximum and minimum subarray sums.
 
-##  Features
+#  Features
 - Prints all subarrays of an array
 - Calculates the sum of each subarray
 - Tracks and displays:
@@ -10,7 +10,7 @@ This repository contains a simple Java program that demonstrates how to generate
   - Maximum subarray sum
   - Minimum subarray sum
 
-## Code Examplejava
+# Code Examplejava
 int numbers[] = {2, 4, 7, 9, 6};
 Subarrays(numbers);
 2  -> Sum = 2
@@ -23,7 +23,7 @@ Maximum Subarray Sum = 28
 Minimum Subarray Sum = 2
 
 
-# Half Pyramid in Java
+### Half Pyramid in Java
 
 This project demonstrates how to print a **Half Pyramid** pattern using Java.  
 The program takes an integer `n` as input and prints a pyramid of numbers with `n` rows.
