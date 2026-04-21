@@ -108,5 +108,38 @@ Decimal number is : 10
 - Interactive input with `Scanner`  
 
 
+# Butterfly Pattern (Java)
+
+## Overview
+This program prints a **butterfly star pattern** using nested loops in Java.  
+It demonstrates control structures, nested iteration, and pattern printing logic.
 
 
+## How It Works
+- The first half prints the **upper wings** of the butterfly.  
+- The second half prints the **lower wings**.  
+- Spaces in the middle adjust dynamically to form the shape.
+
+
+## Usage
+Compile and run:
+bash
+javac Butterfly.java
+java Butterfly
+
+
+Output for `n = 4`:
+*      *
+**    **
+***  ***
+********
+********
+***  ***
+**    **
+*      *
+
+
+## Features
+- Clear demonstration of **nested loops**  
+- Adjustable size (`n`) for different butterfly shapes  
+- Beginner‑friendly pattern logic  
