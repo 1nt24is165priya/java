@@ -37,7 +37,7 @@ For example, if `n = 5`, the output should be:
 
 ---
 
-## 🖥️ Code Explanation
+## Code Explanation
 - The program uses a `Scanner` to read input from the user.
 - Outer loop (`line`) controls the number of rows.
 - Inner loop (`i`) prints numbers from `1` up to the current row number.
@@ -58,7 +58,7 @@ It demonstrates conditional logic (`if-else`) and loop control structures (`for`
 
 ---
 
-## 📌 Program Overview
+## Program Overview
 The program defines a method `Hallow_Rectangle(int totalrows, int totalcol)` that prints a rectangle of `*` characters with a hollow center.
 
 - Border rows and columns are filled with `*`
