@@ -78,3 +78,35 @@ for n = 8
 
 
 
+
+
+# Decimal ↔ Binary Converter
+
+## Overview
+A simple Java program to:
+- Convert a decimal number to binary  
+- Convert a binary number to decimal  
+
+## How to Run
+```bash
+javac DecToBin.java
+java DecToBin
+
+
+## Example
+Enter the Decimal number:
+10
+Binary number is : 1010
+
+Enter the binary number:
+1010
+Decimal number is : 10
+
+## Features
+- Two-way conversion (Decimal ↔ Binary)  
+- Beginner-friendly logic using loops and `Math.pow()`  
+- Interactive input with `Scanner`  
+
+
+
+
