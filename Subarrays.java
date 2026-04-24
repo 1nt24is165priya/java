@@ -9,21 +9,21 @@ public class Subarrays {
             for (int j = i; j < numbers.length; j++) {
                 int end = j;
 
-                int sum = 0; // reset sum for each subarray
+                int curr_sum = 0; // reset sum for each subarray
                 for (int k = start; k <= end; k++) {
                     System.out.print(numbers[k] + " ");
-                    sum += numbers[k]; // add each element to sum
+                    curr_sum += numbers[k]; // add each element to sum
                 }
 
                 ts++;
-                System.out.println(" -> Sum = " + sum);
+                System.out.println(" -> Sum = " + curr_sum);
 
                 // update max and min
-                if (sum > maxSum) {
-                    maxSum = sum;
+                if (curr_sum > maxSum) {
+                    maxSum = curr_sum;
                 }
-                if (sum < minSum) {
-                    minSum = sum;
+                if (curr_sum < minSum) {
+                    minSum = curr_sum;
                 }
             }
             System.out.println();
