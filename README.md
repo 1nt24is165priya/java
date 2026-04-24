@@ -143,3 +143,45 @@ Output for `n = 4`:
 - Clear demonstration of **nested loops**  
 - Adjustable size (`n`) for different butterfly shapes  
 - Beginner‑friendly pattern logic  
+
+
+# 📊 Java Programs – Subarray Sum Calculations
+
+## 📌 Overview
+This repository contains Java implementations for solving subarray sum problems using different approaches:
+- **Prefix Sum Method** → Calculates total subarrays, maximum subarray sum, and minimum subarray sum.  
+- **Kadane’s Algorithm** → Efficiently finds the maximum subarray sum in linear time.
+
+---
+
+## 📂 Programs Included
+1. **Kadanes_Algorithm.java**  
+   - Implements Kadane’s Algorithm.  
+   - Finds maximum subarray sum in O(n).  
+   - Handles both positive and negative arrays.
+
+
+## 📤 Example Output (Kadanes_Algorithm.java)
+```
+Max sum in the subarrays is : -1
+```
+(for input array with all negative numbers)
+
+---
+
+## ⏱️ Time Complexity
+| Approach            | Time Complexity | Space Complexity | Notes |
+|----------------------|-----------------|------------------|-------|
+| Brute Force          | O(n³)           | O(1)             | Very slow, checks all subarrays manually |
+| Prefix Sum           | O(n²)           | O(n)             | Faster, uses precomputed sums |
+| Kadane’s Algorithm   | O(n)            | O(1)             | Fastest, works in linear time |
+
+---
+
+## 📖 Concepts Covered
+- Arrays  
+- Subarray generation  
+- Prefix sums  
+- Kadane’s Algorithm  
+- Time Complexity analysis  
+
