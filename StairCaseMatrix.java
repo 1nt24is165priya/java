@@ -1,17 +1,17 @@
 import java.util.*;
 public class StairCaseMatrix{
     public static boolean searchSortedMatrix(int matrix[][],int key){
-        int row = 0,  col = matrix[0].length-1;
-        while( row < matrix.length && + col >= 0){
+        int row = matrix.length-1,  col = 0;
+        while( row >= 0 && col <= matrix[0].length-1 ){
             if(key == matrix[row][col]){
                 System.out.println("key found at index (" + row + "," + col + ")");
                 return true;
             }
             else if(key < matrix[row][col]){
-                col--;   
+                row--;   
             }
             else{
-                row++;
+                col++;
 
             }
         }
