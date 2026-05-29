@@ -10,6 +10,8 @@ public class LargestString{
              }
         }
 
+        System.out.println("apple".compareToIgnoreCase("Apple"));
+
         System.out.println(largest);
 
     
